@@ -9,7 +9,9 @@ GEM
       builder
       minitest (>= 5.0)
       ruby-progressbar
+    rake (13.0.1)
     ruby-progressbar (1.10.1)
+    stamp (0.6.0)
 
 PLATFORMS
   ruby
@@ -17,6 +19,8 @@ PLATFORMS
 DEPENDENCIES
   minitest (~> 5.10)
   minitest-reporters (~> 1.1)
+  rake
+  stamp
 
 RUBY VERSION
    ruby 2.2.0p0
